@@ -7,70 +7,78 @@
 <body>
   <!-- Start Header -->
   <header>
-    <div class="header_page">
+    <div class="page-header">
       <a href="#" title="logo">
         <img src="images/logo.png" alt="logo">          
       </a>
       <div class="header_contact">
         <i></i>
         <p>Question for the doctor</p>
-        <span>05113941 977</span>
+        <p><span>05113941 977</span></p>
       </div>
     </div>
-    <div class="header_categories">
-      <nav class="header_categories_category">
-        <a href="#">HOME</a>
-        <a href="#" >ABOUT US</a>
-        <a href="#" >HEALTH SERVICES</a>
-        <a href="#">REGULAR MEDICINE</a>
-        <a href="#" >SET CALENDAR</a>
-        <a href="#" >CONSULT & CONTACT</a>
+    <div class="header-categories">
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">HOME</a></li>
+          <li class="nav-item"><a href="#" >ABOUT US</a></li>
+          <li class="nav-item"><a href="#" >HEALTH SERVICES</a></li>
+          <li class="nav-item"><a href="#">REGULAR MEDICINE</a></li>
+          <li class="nav-item"><a href="#" >SET CALENDAR</a></li>
+          <li class="nav-item"><a href="#" >CONSULT & CONTACT</a></li>
+        </ul>
       </nav>
-      <ul class="header_categories_social">
-        <li><a href="#"><i>icon facebook</i></a></li>
-        <li><a href="#"><i>icon google</i></a></li>
-        <li><a href="#"><i>icon youtube</i></a></li>
-      </ul>
+      <section class="header-social-menu">
+        <ul class="header-social-list">
+          <li class="header-social-item"><a href="#"><i>icon facebook</i></a></li>
+          <li class="header-social-item"><a href="#"><i>icon google</i></a></li>
+          <li class="header-social-item"><a href="#"><i>icon youtube</i></a></li>
+        </ul>
+      </section>
     </div>
   </header>
   <!-- End Header -->
   <!-- Start Main -->
-  <main>
-    <section class="main_breadcrumb ">
+  <main class="page-main">
+    <section class="main-breadcrumb ">
       <a href="#">HOME</a>
       <span>/</span>
       <a href="#">HEALTH SERVICES</a>
     </section>
-    <section class="main_main">
+    <section class="main-main">
       <!-- Start Aside -->
-      <aside class="main_main_aside">
-        <ul class="main_main_aside_list">
-          <li class="main_main_aside_item">
-            <button>ADULT</button>              
-            <ul>
-              <li>Neck-shoulder-hand pain</li>
-              <li>Sninal pain</li>
-              <li>Disc herniation</li>
-              <li>Keep joint, hip joint</li>
-              <li>Footsore</li>
-              <li>Diseases of the musies</li>
-              <li>Perpheral neuropathy</li>
-              <li>Sequeiae of  stroke</li>
-              <li>Traumatic sequeiae</li>
-            </ul>
-          </li>
-          <li class="main_main_aside_item">
-            <button>CHILDREN</button>                       
-          </li>
-        </ul>
-        <h2>BOOK SCHEDULE</h2>
-        <form method="post" action="#">
-          <input type="text" name="fullname" placeholder="Full Name">
-          <input type="text" name="address" placeholder="Address">
-          <input type="number" name="phonenumber" placeholder="Phone Number">
-          <input type="date" name="time">
-          <input type="submit" name="submit" value="SEND">
-        </form>
+      <aside class="sidebar-left">
+        <section class="sidebar-left-categories">
+          <ul class="sidebar-list">
+            <li class="sidebar-item">
+              <button>ADULT</button>              
+              <ul class="adult-list">
+                <li class="adult-item"><a href="#">Neck-shoulder-hand pain</a></li>
+                <li class="adult-item"><a href="#">Sninal pain</a></li>
+                <li class="adult-item"><a href="#">Disc herniation</a></li>
+                <li class="adult-item"><a href="#">Keep joint, hip joint</a></li>
+                <li class="adult-item"><a href="#">Footsore</a></li>
+                <li class="adult-item"><a href="#">Diseases of the musies</a></li>
+                <li class="adult-item"><a href="#">Perpheral neuropathy</a></li>
+                <li class="adult-item"><a href="#">Sequeiae of  stroke</a></li>
+                <li class="adult-item"><a href="#">Traumatic sequeiae</a></li>
+              </ul>
+            </li>
+            <li class="sidebar-item">
+              <button>CHILDREN</button>                       
+            </li>
+          </ul>
+        </section>
+        <section class="sidebar-left-form">
+          <h2>BOOK SCHEDULE</h2>
+          <form method="post" action="#">
+            <input type="text" name="fullname" placeholder="Full Name">
+            <input type="text" name="address" placeholder="Address">
+            <input type="number" name="phonenumber" placeholder="Phone Number">
+            <input type="date" name="time">
+            <input type="submit" name="submit" value="SEND">
+          </form>
+        </section>
       </aside>
       <!-- End Aside -->
       <!-- Start MainContent -->
@@ -82,6 +90,7 @@
             </a>
             <h2><a href="#">NECK SHOULDER PAIN</a></h2>                     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -89,6 +98,7 @@
             </a>
             <h2><a href="#">NECK SHOULDER PAIN</a></h2>                     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -96,6 +106,7 @@
             </a>
             <h2><a href="#">NECK SHOULDER PAIN</a></h2>                     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -103,6 +114,7 @@
             </a>
             <h2><a href="#">NECK SHOULDER PAIN</a></h2>                     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -110,6 +122,7 @@
             </a>
             <h2><a href="#">SLOW SAY</a></h2>                       
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -117,6 +130,7 @@
             </a>
             <h2><a href="#">SLOW SAY</a></h2>                       
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -124,6 +138,7 @@
             </a>
             <h2><a href="#">SLOW SAY</a></h2>                       
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -131,6 +146,7 @@
             </a>
             <h2><a href="#">NECK SHOULDER PAIN</a></h2>                     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
           <li class="main_main_contetn_item">
             <a href="#">
@@ -138,6 +154,7 @@
             </a>
             <h2><a href="#">NECK SHOULDER PAIN</a></h2>                     
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error earum voluptatum, nam eum officiis eius saepe asperiores commodi.</p>
+            <a href="#"><img src="images/viewmore.jpg" alt="viewmore"></a>
           </li>
         </ul>
       </div>
@@ -146,43 +163,40 @@
   </main>
   <!-- End Main -->
   <!-- Start Footer -->
-  <footer class="health-footer">
-    <section class="footer_content">
-      <ul class="footer_content_list">
-        <li class="footer_content_item">
+  <footer class="page-footer">
+    <section class="footer-content">
+      <ul class="footer-content-list">
+        <li class="footer-content-item">
           <h2>ABOUT US</h2>
-          <ul>
-            <li>GENERAL INTRODUCTION</li>
-            <li>HUMAN</li>
-            <li>FACILITIES AND FACILITIES</li>  
+          <ul class="footer-content-child-list">
+            <li class="footer-child-item"><a href="#">GENERAL INTRODUCTION</a></li>
+            <li class="footer-child-item"><a href="#">HUMAN</a></li>
+            <li class="footer-child-item"><a href="#">FACILITIES AND FACILITIES</a></li>  
           </ul>
         </li>
-        <li class="footer_content_item">
+        <li class="footer-content-item">
           <h2>SUPPORT</h2>
-          <ul class="footer_content_item_">
-            <li>HEALTH COUNSELING</li>
-            <li>REGULAR MEDICINE</li>
-            <li>SCHEDULE APPOINTMENTS</li>  
+          <ul class="footer-content-child-list">
+            <li class="footer-child-item"><a href="#">HEALTH COUNSELING</a></li>
+            <li class="footer-child-item"><a href="#">REGULAR MEDICINE</a></li>
+            <li class="footer-child-item"><a href="#">SCHEDULE APPOINTMENTS</a></li>  
           </ul>
         </li>
-        <li class="footer_content_item">
+        <li class="footer-content-item">
           <h2>SOCIAL CONNECTION</h2>
-          <ul class="footer_social">
-            <li>
-              <a href="#">
-                <i></i>
+          <ul class="footer-content-child-list">
+            <li class="footer-child-item">
+              <a href="#">                
                 FACEBOOk
               </a>
             </li>
-            <li>
+            <li class="footer-child-item">
               <a href="#">
-                <i></i>
                 GOOGLE
               </a>
             </li>
-            <li>
+            <li class="footer-child-item">
               <a href="#">
-                <i></i>
                 YOUTUBE
               </a>
             </li>
@@ -190,7 +204,7 @@
         </li>
       </ul>
     </section>
-    <section class="footer_copyright">
+    <section class="footer-copyright">
       <p>&#169;2018-COPYRIGHT OF SPECIALIZED CLINIC</p>
     </section>
   </footer>
