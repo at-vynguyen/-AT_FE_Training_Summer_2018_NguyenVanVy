@@ -70,6 +70,7 @@
   .footer-content-item {
     width: 50%;
     margin-bottom: 50px;
+    box-sizing: border-box;
   }
   .copy-right {
     box-sizing: border-box;
@@ -95,8 +96,8 @@
   }
   .footer-content-item {
     width: 100%;
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
     padding-left: 10px;
+    padding-top: 10px;
   }
-
 }
