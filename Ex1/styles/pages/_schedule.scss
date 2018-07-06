@@ -1,0 +1,63 @@
+.content-content {
+  width: 100%;
+  .main-content {
+    width: 75%;
+    float: left;
+    @include respondTo(mediumlarge) {
+      width: 100%;
+      float: none;
+    }
+    .main-content-list {
+      width: 100%;
+      .main-content-item {
+        float: left;
+        padding-left: 10px;
+        width: calc((100%-80px)/3);
+        padding-right: 10px;
+        padding-bottom: 24px;
+        box-sizing: border-box;
+        @include respondTo(mediumlarge) {
+          width: 50%;
+        }
+        @include respondTo(tabletlarge) {
+          width: 100%;
+        }
+        .article-content {
+          width: 100%;
+          box-sizing: border-box;
+          padding-bottom: 30px;
+          border: solid 0.5px #e9e9e9;
+          position: relative;
+          h2 {
+            font-family: $second-font;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 20px 0 20px 22px;
+          }
+          p {
+            margin-left: 21px;
+            font-family: $second-font;
+            font-size: $four-fontsize;
+            line-height: 16px;
+          }
+          .img-content {
+            width: 100%;
+            height: 185px;
+          }
+          .viewmore {
+            position: absolute;
+            right: 0;
+            bottom: -3px;
+          }
+        }
+      }
+    }
+  }
+}
+@include respondTo(mediumlarge) {
+  .page-main {
+    .main-bottom {
+      padding-top: 40px;
+    }
+  } 
+}

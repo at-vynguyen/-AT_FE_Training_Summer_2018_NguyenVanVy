@@ -1,0 +1,19 @@
+%bnt-submit {
+  text-align: center;
+  background-color: #4bbc56;
+  color: white;
+  width: 127px;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+%clear-fix{
+  content: "";
+  display: block;
+  clear: both;
+}
+%before {
+  content: ".";
+  color: white;
+  position: absolute;
+}

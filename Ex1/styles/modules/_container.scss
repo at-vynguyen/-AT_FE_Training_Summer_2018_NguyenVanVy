@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+  width: 100%;
+  @include respondTo(maxlarge) {
+    padding: 0 15px;
+    max-width: 950px;
+    box-sizing: border-box;
+  }
+  @include respondTo(mediumlarge) {
+    max-width: 710px;
+    padding: 0 10px;
+  }
+  @include respondTo(tabletlarge) {
+    padding: 0;
+  }
+  &::after {
+    @extend %clear-fix;
+  }
+}
+.clearfix::after {
+  @extend %clear-fix;
+}
