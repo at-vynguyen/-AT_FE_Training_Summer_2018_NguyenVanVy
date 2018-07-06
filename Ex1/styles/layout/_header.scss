@@ -1,0 +1,88 @@
+.page-header {
+  padding-top: 12px;
+  width: 100%;  
+  .header-logo {
+    float: left;
+    .logo {
+      float: left;
+      margin-top: 0;
+      margin-right: 10px;
+    }
+    .logo-text {
+      float: right;
+      margin-top: 15px;
+      span {
+        font-size: $second-fontsize;
+      }
+    }
+  }
+  .header-contact {
+    padding-top: 12px;
+    float: right;
+    margin-top: 5px;
+    padding-left: 40px;
+    background: url('../images/phone-icon.png') no-repeat left center;
+    .normal-text {
+      font-family: $second-font;
+      font-size: $second-fontsize;
+      font-weight: bold;    
+      color: #686868;
+      font-style: italic;
+      margin-bottom: 12px;
+    }
+    .phone-number {
+      color: $primary-color;
+      font-family: $second-font;
+      font-size: $primary-fontsize;
+      font-weight: bold;
+      font-style: normal;
+      margin-left: 9px;
+    }
+  }
+  .header-bottom {
+    margin-top: 12px;
+    border-top: 1px #e9e9e9 solid;
+    .nav-menu {
+      float: left;
+      width: 89%;
+      i {
+        display: none;
+      }
+      .nav-list {
+        width: 100%;
+        .nav-item {
+          float: left;
+          font-family: $second-font;
+          font-size: 12px;
+          text-transform: uppercase;
+          padding: 27px 27px;
+          border-right: 1px solid #e9e9e9;
+          position: relative;
+          a:hover {
+            color: $primary-color;
+          }
+          a::after {
+            content: "";
+            display: block;
+            position: absolute;
+          }
+          &:last-child {
+            border: 0;
+          }
+        }
+      }      
+    }
+    .social {
+      float: right;
+      width: 11%;
+      .header-social-list {
+        float: right;
+        margin-top: 18px;
+        .header-social-item {
+          float: left;
+          margin-left: 13px;
+        }
+      }
+    }
+  }
+}

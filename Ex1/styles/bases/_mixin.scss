@@ -1,0 +1,14 @@
+// @mixin respondTo{
+//   @if $media == maxlarge {
+//     @media only screen and (max-width: $max-large) { @content; }
+//   }
+//   @else if $media == mediumlarge {
+//     @media only screen and (max-width: $medium-large) { @content; }
+//   }
+//   @else if $media == tabletlarge {
+//     @media only screen and (max-width: $tablet-large) { @content; }
+//   }
+//   @else if $media == mobilelarge {
+//     @media only screen and (max-width: $mobile-large) { @content; }
+//   }
+// }
