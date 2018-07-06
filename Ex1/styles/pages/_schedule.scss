@@ -3,6 +3,10 @@
   .main-content {
     width: 75%;
     float: left;
+    @include respondTo(mediumlarge) {
+      width: 100%;
+      float: none;
+    }
     .main-content-list {
       width: 100%;
       .main-content-item {
@@ -12,6 +16,12 @@
         padding-right: 10px;
         padding-bottom: 24px;
         box-sizing: border-box;
+        @include respondTo(mediumlarge) {
+          width: 50%;
+        }
+        @include respondTo(tabletlarge) {
+          width: 100%;
+        }
         .article-content {
           width: 100%;
           box-sizing: border-box;
@@ -43,4 +53,11 @@
       }
     }
   }
+}
+@include respondTo(mediumlarge) {
+  .page-main {
+    .main-bottom {
+      padding-top: 40px;
+    }
+  } 
 }

@@ -3,6 +3,9 @@
   margin-bottom: 76px;
   background-size: cover;
   background: url('../images/banner.png') no-repeat center center;
+  @include respondTo(mediumlarge) {
+    padding: 50px;
+  }
   .main-breadcrumb-list {
     margin: 0;
     padding: 0;

@@ -3,6 +3,9 @@
   background-color: #62c6f8;
   height: 260px;
   margin-top: 18px;
+  @include respondTo(mediumlarge) {
+    height: auto;
+  }
   a {
     color: white;
   }
@@ -17,6 +20,10 @@
     font-family: $second-font;
     font-size: $four-fontsize;
     text-transform: uppercase;
+    @include respondTo(mediumlarge) {
+      box-sizing: border-box;
+      text-align: center;
+    }
   }
 }
 .footer-content {
@@ -26,9 +33,24 @@
   border-bottom: solid 1px #c2e4f5;
   .footer-content-list {
     width: 100%;
+    @include respondTo(mediumlarge) {
+      padding-left: 10px;
+      box-sizing: border-box;
+    }
     .footer-content-item {
       float: left;
       width: calc(100%/3);
+      @include respondTo(mediumlarge) {
+        width: 50%;
+        margin-bottom: 50px;
+        box-sizing: border-box;
+      }
+      @include respondTo(mobilelarge) {
+        width: 100%;
+        margin: 0 auto 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+      }
       .footer-content-child-list {
         width: 100%;
         padding-top: 12px;
